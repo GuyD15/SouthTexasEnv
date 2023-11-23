@@ -28,8 +28,10 @@ header h1 {
     height: auto;
 }
 .results-banner img {
+    position: relative;
     width: 100%;
     height: auto;
+    top: 5px;
     background-image: url(./img/2023\ Pierre\ Alpine\ Car.jpg);
     background-size: cover;
     background-repeat: no-repeat;
@@ -64,6 +66,30 @@ header h1 {
 .banner h2 {
     font-size: 74px;
 }
+.projects a {
+    text-decoration: none;
+}
+.projects h1 {
+    text-align: center;
+}
+.skill-container {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+.skill-column {
+    flex: 1;
+    padding: 0 20px; 
+    box-sizing: border-box; 
+}
+.skill-column h1 {
+    text-align: center;
+}
+.center {
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+}
 nav {
     background-color:rgb(33, 115, 184);
     padding: 20px;
@@ -79,6 +105,7 @@ nav li {
     width: 25%;
     display: inline-block;
     font-size: 24px;
+    text-align: center;
 }
 nav li a {
     text-decoration: none;
@@ -93,6 +120,7 @@ main {
 }
 article h2 {
     font-size: 2em;
+    text-align: center;
 }
 article p {
     line-height: 2em;
