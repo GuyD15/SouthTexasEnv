@@ -21,10 +21,28 @@ header h1 {
 }
 .banner {
     position: relative;
+    top: 5px;
 }
 .banner img {
     max-width: 100%;
+    height: auto;
 }
+.results-banner img {
+    width: 100%;
+    height: auto;
+    background-image: url(./img/2023\ Pierre\ Alpine\ Car.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+ }
+ .results-banner .stats {
+    background-color: rgb(33, 115, 184);
+    color: white;
+    padding: 30px;
+    position: absolute;
+    left: 0px;
+    top: 30%
+ }
 .banner .welcome {
     background-color: rgb(33, 115, 184);
     color: white;
@@ -33,14 +51,24 @@ header h1 {
     left: 0px;
     top: 30%
 }
+.race_results {
+    text-align: center;
+}
+.drivers {
+    text-align: center;
+    color: #4B4B4B;
+}
+.drivers img {
+    width: 750px;
+}
 .banner h2 {
     font-size: 74px;
 }
 nav {
-    background-color: #F4F4F4;
+    background-color:rgb(33, 115, 184);
     padding: 20px;
     position: sticky;
-    top: 104px;
+    top: 88px;
 }
 nav ul {
     white-space: nowrap;
@@ -54,7 +82,7 @@ nav li {
 }
 nav li a {
     text-decoration: none;
-    color: #4B4B4B;
+    color: white;
 }
 main {
     max-width: 100%;
@@ -94,6 +122,9 @@ form input:focus {
 }
 form input:valid {
     border: 4px solid #71D300;
+}
+.copyright{
+    text-align: center;
 }
 p::selection {
     background-color: rgb(33, 115, 184);
