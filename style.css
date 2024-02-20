@@ -16,7 +16,7 @@ header {
 }
 
 header h1 {
-    color: rgb(33, 115, 184);
+    color: rgb(173, 6, 6);
     padding: 6px 12px;
     display: inline-block;
     border-radius: 36px;
@@ -34,7 +34,7 @@ header h1 {
 }
 
 .results-banner .stats {
-    background-color: rgb(33, 115, 184);
+    background-color: rgb(173, 6, 6);
     color: white;
     padding: 30px;
     position: absolute;
@@ -43,7 +43,7 @@ header h1 {
 }
 
 .banner .welcome {
-    background-color: rgb(33, 115, 184);
+    background-color: rgb(173, 6, 6);
     color: white;
     padding: 30px;
     position: absolute;
@@ -72,10 +72,11 @@ header h1 {
 }
 
 nav {
-    background-color: rgb(33, 115, 184);
+    background-color: rgb(173, 6, 6);
     padding: 20px;
     position: sticky;
     top: 88px;
+    z-index: 100;
 }
 
 nav ul {
@@ -85,7 +86,7 @@ nav ul {
 }
 
 nav li {
-    width: 25%;
+    width: 20%;
     display: inline-block;
     font-size: 24px;
     text-align: center;
@@ -105,6 +106,7 @@ main {
 }
 
 article h2 {
+    padding: 25px;
     font-size: 2em;
     text-align: center;
 }
@@ -150,9 +152,19 @@ form input:valid {
 }
 
 p::selection {
-    background-color: rgb(33, 115, 184);
+    background-color: rgb(173, 6, 6);
     color: white;
 }
+
+/* .header-left {
+    position: absolute;
+    text-align: left;
+    
+}
+
+.header-right {
+    text-align: right;
+} */
 
 @media screen and (max-width: 1400px) {
     .banner .welcome h2 {
